@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    width: 110px;
+    background-color: #ffca05;
+}
+
+.bebas{
+    font-family: 'Bebas Neue', cursive;
+}
+.content{
+    flex: 1;
+    display: flex;
+    
+}
+.content__left{
+    width: 33%;
+    background-color: #292934;
+}
+.content__right{
+    width: 67%;
+    background-color: #22222d;
+}
+/*.img{
+    background-color: #e1e1e1;
+}*/
+.imgCV{
+    height: 600px;
+    width: 440px;
+}
+.info__container{
+    color: #fff;
+    padding: 75px 150px 65px 80px;
+}
+.info__container--compact{
+    color: #fff;
+    padding: 77px 60px 40px 50px;
+}
+.info__title{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 42px;
+    letter-spacing: 4px;
+    text-align: left;
+    position: relative;
+    display: inline-block;/*?*/
+}
+.info__title:after{
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color: gold;
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: -20px;
+}
+.info__about{
+    line-height: 1.8;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.container__vertical{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icon{
+    width: 40px;
+    margin-bottom: 10px;
+}
+.info__hobbies{
+    font-size: 15px;
+    text-align: center;
+}
+.info__contact{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+   
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-color: #fff;
+}
+.header p{
+    text-transform: uppercase;
+    margin-left: 75px;
+    margin-top: 40px;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+.header__name{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 80px;
+   margin-bottom: 20px;
+   font-size: 82px;
+   letter-spacing: 9px;
+  
+}
+
+.header__name::after{
+    content: "";
+    width: 55px;
+    height: 3px;
+    background-color: #ffca05;
+    display: block;
+    position: absolute;
+    bottom: -13px;
+}
+
+.education__container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.education__column p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.info__subtitle--education{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.info__experience{
+    margin-bottom: 40px;
+    width: 550px;
+    
+}
+.info__subtitle--experience{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.inline__container{
+    display: flex;
+   justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.inline__container--experience{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+  
+}
+
+.info__border{
+    border-radius: 5px;
+    background-color: #ffca05;
+    color: #22222d;
+    width: 110px;
+    padding: 2px 4px;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 15px;
+}
+.inline__container--experience p:last-child{
+    font-size: 20px;
+}
+.info__experience{
+    font-size: 18px;
+    line-height: 1.7;
+   
+}
+.inline__container--expertise{
+    display: flex;
+
+}
+.img__expertise{
+    width: 110px;
+    margin-right: 25px;
+}
