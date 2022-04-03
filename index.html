@@ -1,149 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&family=Poppins:wght@300;400;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Prechu</title>
+  </head>
+  <body>
+    <header class="logo">
+      <img class="logo__icon" src="./icons/“.png" alt="prechu logo" />
+      <ul class="menu">
+        <li class="menu__item">Home</li>
+        <li class="menu__item">Products</li>
+        <li class="menu__item">Services</li>
+        <li class="menu__item">Contact</li>
+      </ul>
+    </header>
 
-<body>
+    <section class="main-page">
+      <div class="container">
+        <img class="main-page__logo" src="./img/iphone.png" alt="iphone" />
 
-    <div class="page">
-        <aside></aside>
-        <main class="content">
-            <div class="content__left">
-                <div class="img">
-                    <img class="imgCV" src="./img/2f305eb98bf63ddedb556d383443c7ad.jpeg" alt="photoCV">
-                </div>
-                <div class="info__container--compact">
+        <div class="main-page__text">
+          <h1 class="main-page__title">Lorem Ipsum is simply</h1>
+          <p class="main-page__subtitle">dummy text of the</p>
+          <p class="main-page__subtitle">printing & typesetting</p>
 
-                    <h3 class="info__title bebas">About me</h3>
-                    <p class="info__about">Lorem ipsum dolor a consectetur adipiscing elitse eiusmod tempor incididunt labore dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                        accumsan is facilisis the dolore magna aliqua dolore magna aliqua dolore magna aliqua.</p>
-                </div>
+          <button class="button">
+            <img class="button__icon" src="./icons/tick.png" alt="sign" />Sign
+            up now
+          </button>
+        </div>
+      </div>
+    </section>
 
-                <div class="info__container--compact">
-                    <h3 class="info__title bebas">contact info</h3>
+    <section class="about">
+      <div class="info">
+        <div class="info__icon">
+          <svg width="190" height="190" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <circle cx="95" cy="95" r="95" fill="#5094f2"></circle>
 
-                    <div class="container__vertical">
-                        <p class="info__contact">Phone</p>
-                        <p>+000 123 456 789</p>
-                    </div>
-                    <div class="container__vertical">
-                        <p class="info__contact">email</p>
-                        <p>urname@gmail.com</p>
-                    </div>
-                    <div class="container__vertical">
-                        <p class="info__contact">area</p>
-                        <p>Your Street Address Here</p>
-                    </div>
+              <rect
+                class="round"
+                x="115"
+                y="-30"
+                rx="5"
+                ry="5"
+                width="35"
+                height="20"
+                fill="#fff"
+                transform="rotate(35)"
+              ></rect>
+              <line
+                x1="130"
+                y1="80"
+                x2="90"
+                y2="50"
+                stroke="#5094f2"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+              <rect
+                x="115"
+                y="-10"
+                width="35"
+                height="60"
+                fill="#fff"
+                transform="rotate(35)"
+              ></rect>
 
-                </div>
-                <div class="info__container--compact">
-                    <h3 class="info__title bebas">Hobbies</h3>
-                    <div class="inline__container">
-                        <div class="container__vertical">
-                            <img class="icon" src="./icons/travel.png" alt="travel">
-                            <p class="info__hobbies">Travel</p>
-                        </div>
-                        <div class="container__vertical">
-                            <img class="icon" src="./icons/audio.png" alt="travel">
-                            <p class="info__hobbies">Music</p>
-                        </div>
-                        <div class="container__vertical">
-                            <img class="icon" src="./icons/document.png" alt="travel">
-                            <p class="info__hobbies">Writing</p>
-                        </div>
-                        <div class="container__vertical">
-                            <img class="icon" src="./icons/chess.png" alt="travel">
-                            <p class="info__hobbies">Chess</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+              <line
+                x1="98"
+                y1="75"
+                x2="77"
+                y2="105"
+                stroke="#5094f2"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+              <line
+                x1="112"
+                y1="84"
+                x2="90"
+                y2="115"
+                stroke="#5094f2"
+                stroke-width="7"
+                stroke-linecap="round"
+              />
+              <polygon points="65 110, 92 128, 65 140" fill="white"></polygon>
+              <circle
+                cx="65"
+                cy="140"
+                r="15"
+                fill="transparent"
+                stroke-width="3"
+                stroke="#5094f2"
+              ></circle>
+            </g>
+          </svg>
+        </div>
+        <h3 class="info__title">Contrary to popular</h3>
+        <p class="info__description">
+          Lorem Ipsum is not simply random text. It has roots in a piece
+        </p>
+      </div>
+      <div class="info">
+        <div class="info__icon">
+          <svg width="190" height="190" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <circle cx="95" cy="95" r="95" fill="#d94748"></circle>
+              <rect
+                x="50"
+                y="55"
+                width="90"
+                height="60"
+                fill="#d94748"
+                stroke-width="12"
+                stroke="#fff"
+                rx="10"
+              ></rect>
+              <rect x="83" y="120" width="23" height="10" fill="white"></rect>
+              <rect x="50" y="130" width="90" height="10" fill="white"></rect>
+            </g>
+          </svg>
+        </div>
+        <h3 class="info__title">Contrary to popular</h3>
+        <p class="info__description">
+          Lorem Ipsum is not simply random text. It has roots in a piece
+        </p>
+      </div>
+      <div class="info">
+        <div class="info__icon">
+          <svg width="190" height="190" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <circle cx="95" cy="95" r="95" fill="#ebbb11"></circle>
 
-            <div class="content__right">
-                <div class="header">
-                    <!--header?-->
-                    <div>
-                        <h1 class="header__name bebas">
-                            <span>Jhon</span>
-                            <br>
-                            <span>Abirar</span>
-                        </h1>
+              <circle cx="95" cy="45" r="10" fill="#fff"></circle>
+              <line
+                x1="60"
+                y1="75"
+                x2="95"
+                y2="45"
+                stroke="#fff"
+                stroke-width="10"
+              />
+              <line
+                x1="130"
+                y1="75"
+                x2="95"
+                y2="45"
+                stroke="#fff"
+                stroke-width="10"
+              />
+              <rect
+                x="45"
+                y="80"
+                width="100"
+                height="15"
+                rx="5"
+                ry="10"
+                fill="#fff"
+              />
+              <polygon points="50 85, 140 85, 128 135, 60 135" fill="#fff" />
+              <line
+                x1="70"
+                y1="95"
+                x2="75"
+                y2="120"
+                stroke="#ebbb11"
+                stroke-width="13"
+                stroke-linecap="round"
+              />
+              <line
+                x1="95"
+                y1="95"
+                x2="95"
+                y2="120"
+                stroke="#ebbb11"
+                stroke-width="13"
+                stroke-linecap="round"
+              />
+              <line
+                x1="120"
+                y1="95"
+                x2="115"
+                y2="120"
+                stroke="#ebbb11"
+                stroke-width="13"
+                stroke-linecap="round"
+              />
+            </g>
+          </svg>
+        </div>
+        <h3 class="info__title">Contrary to popular</h3>
+        <p class="info__description">
+          Lorem Ipsum is not simply random text. It has roots in a piece
+        </p>
+      </div>
+    </section>
 
-                        <p>UI designer</p>
-                    </div>
-                </div>
-                <div class="info__container">
-                    <h3 class="info__title bebas">Education</h3>
-                    <div class="education__container">
-                        <div class="education__column">
-                            <h4 class="info__subtitle--education">
-                                Enter your major
-                            </h4>
-                            <p>
-                                Name Of Your University
-                            </p>
-                            <p>2005-2009</p>
-                        </div>
-                        <div class="education__column">
-                            <h4 class="info__subtitle--education">
-                                Enter your major
-                            </h4>
-                            <p>
-                                Name Of Your University
+    <section class="cart">
+      <div class="cart__image">
+        <h2 class="cart__title">The Shopping cart</h2>
+        <img src="./img/cart.png" alt="shopping basket" />
+      </div>
 
-                            </p>
-                            <p>2009-2011</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="info__container">
-                    <h3 class="info__title bebas">Experience</h3>
-                    <div class="info__experience">
-                        <h4 class="info__subtitle--experience">Enter Job Position Here</h4>
-                        <div class="inline__container--experience">
-                            <p class="info__border">Present</p>
-                            <p>Company Name / Location</p>
-                        </div>
-                        <p class="info__experience">Lorem ipsum dolor sit amet, this is a thena consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore</p>
-                    </div>
-                    <!--NEED BLOCk?-->
-                    <div class="info__experience">
-                        <h4 class="info__subtitle--experience">Enter Job Position Here</h4>
-                        <div class="inline__container--experience">
-                            <p class="info__border">2017-2019</p>
-                            <p>Company Name / Location</p>
+      <div class="cart__description">
+        <h3 class="cart__subtitle">Some Bullet text here</h3>
+        <p class="cart__description_text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting Lorem
+          Ipsum has been the industry's standard dummy text ever When an unknown
+          printer took a galley of type and scrambled It to make a type specimen
+          book. It has survived not only five centuries But also the leap into
+          electronic typesetting, Remaining essentially unchanged. It was
+          popularised The release of Letraset sheets containing Lorem Ipsum
+          passages
+        </p>
+      </div>
+    </section>
 
-                        </div>
-                        <p class="info__experience">Lorem ipsum dolor sit amet, this is a thena consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore</p>
-                    </div>
-                </div>
-                    <div class="info__container">
-                        <h3 class="info__title bebas">Expertise</h3>
-                        <div class="inline__container--expertise">
-                            <img class="img__expertise" src="./icons/layer1__expertise.png" alt="layer1">
-                            <img class="img__expertise" src="./icons/layer2__expertise.png" alt="layer2">
-                            <img class="img__expertise" src="./icons/layer3__expertise.png" alt="layer3">
-                            <img class="img__expertise" src="./icons/layer4__expertise.png" alt="layer4">
-                        </div>
-                    </div>
-                
-        </main>
-    </div>
-    </div>
-</body>
-
+    <footer class="footer">
+      <p class="footer__description">Copyright © 2012-2013 cssauthor.com</p>
+    </footer>
+  </body>
 </html>
