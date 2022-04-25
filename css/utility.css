@@ -1,0 +1,103 @@
+/*BUTTON*/
+.button {
+  height: 50px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.btn-white {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.btn-white:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-blue {
+  background-color: #3a4998;
+  border: 1px solid #3a4998;
+}
+.btn-blue:hover {
+  background-color: #383838;
+  border: 1px solid #000099;
+}
+.btn-black {
+  background-color: transparent;
+  border: 1px solid #000;
+}
+.btn-black:hover {
+  background-color: #000;
+  color: #fff;
+}
+.btn-14 {
+  font-size: 14px;
+  width: 160px;
+}
+
+.btn-16 {
+  font-size: 16px;
+  width: 230px;
+}
+.text-white {
+  color: #fff;
+}
+
+/*CARD*/
+.card {
+  padding: 65px 35px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card__heading {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: 600;
+ 
+}
+
+.card__text {
+  font-size: 20px;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+}
+.italic {
+  font-style: italic;
+}
+.card-white {
+  background-color: #fff;
+}
+
+.card-grey {
+  background-color: #f2f2f2;
+}
+
+.card-small {
+  width: 470px;
+  height: 430px;
+}
+
+.card-big {
+  width: 520px;
+  height: 480px;
+}
+
+.card__heading {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.card__text {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+/*HEADING*/
+.heading-bold {
+  font-weight: 400;
+}
+
+.heading-thin {
+  font-weight: 100;
+}
