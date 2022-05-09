@@ -1,0 +1,17 @@
+$color-white: #fff;
+$color-pink: #f0145a;
+$color-blue: #24a3ff;
+
+%fz-title {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+}
+
+%text-gradient {
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}

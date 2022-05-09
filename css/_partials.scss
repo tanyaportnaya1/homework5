@@ -1,0 +1,130 @@
+.wrapper {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  padding: 2rem 3.75rem;
+  position: relative;
+  margin-bottom: 5rem;
+
+  @media (min-width: 1920px) {
+    padding: 3.12rem 10rem;
+  }
+
+  @media (max-width: 375px) {
+    padding: 0;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+    width: 99%;
+    height: 10px;
+    background: #cacadb;
+    border-radius: 0px 0px 12px 12px;
+
+    @media (max-width: 375px) {
+      width: 93%;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 30px;
+    width: 98%;
+    height: 10px;
+    background: #e7e7f2;
+    border-radius: 0px 0px 12px 12px;
+
+    @media (max-width: 375px) {
+      width: 88%;
+    }
+  }
+}
+
+.facebook__logo {
+  position: relative;
+  top: 7px;
+}
+
+.logo__big {
+  position: relative;
+  bottom: 7rem;
+  left: calc(50% - 697px / 2 + 0.5px);
+
+  @media (min-width: 1920px) {
+    bottom: 8rem;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: -6rem;
+  }
+  @media (max-width: 375px) {
+    display: none;
+  }
+  &-xs {
+    display: none;
+    @media (max-width: 375px) {
+      display: block;
+      position: relative;
+      margin-top: -50%;
+    }
+  }
+}
+
+.button__logo {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  left: calc(50% - 42px / 2);
+  bottom: 12rem;
+  background-image: url("../icons/button.svg");
+
+  &:hover {
+    background-image: url("../icons/button__hover.svg");
+    fill: #f0145a;
+  }
+
+  @media (max-width: 375px) {
+    left: calc(50% - 42px / 2);
+    bottom: 3rem;
+  }
+}
+
+.dot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  &__dotted {
+    text-align: center;
+    font-size: 96px;
+    color: $color-blue;
+    opacity: 0.2;
+
+    &-hidden {
+      display: none;
+
+      @media (max-width: 375px) {
+        display: inline-block;
+      }
+    }
+
+    &-active {
+      color: $color-blue;
+      opacity: 1;
+    }
+  }
+}
+
+.col-md-4 {
+  @media (min-width: 768px) {
+    width: 400px !important;
+  }
+}
