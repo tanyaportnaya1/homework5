@@ -1,149 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/utility.css" />
+    <link rel="stylesheet" href="./icofont/icofont.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&family=Poppins:wght@300;400;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
 
-<body>
+    <title>Games</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="./icons/default-logo.png" alt="logo" />
+      <img
+        class="menu-icon"
+        src="./icons/free-icon-menu-button-of-three-horizontal-lines-56763.png"
+        alt="hamburger"
+      />
+    </header>
 
-    <div class="page">
-        <aside></aside>
-        <main class="content">
-            <div class="content__left">
-                <div class="img">
-                    <img class="imgCV" src="./img/2f305eb98bf63ddedb556d383443c7ad.jpeg" alt="photoCV">
-                </div>
-                <div class="info__container--compact">
+    <section class="intro text-white">
+      <h1 class="intro-heading">PC gaming news, reviews, and guides</h1>
+      <nav class="nav-menu">
+        <ul class="nav-menu__list">
+          <li class="nav-menu__list__item">about us |</li>
+          <li class="nav-menu__list__item">news |</li>
+          <li class="nav-menu__list__item">reviews |</li>
+          <li class="nav-menu__list__item">articles |</li>
+          <li class="nav-menu__list__item">#future</li>
+        </ul>
+      </nav>
+      <button class="button btn-white text-white btn-16">Learn more</button>
+    </section>
 
-                    <h3 class="info__title bebas">About me</h3>
-                    <p class="info__about">Lorem ipsum dolor a consectetur adipiscing elitse eiusmod tempor incididunt labore dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-                        accumsan is facilisis the dolore magna aliqua dolore magna aliqua dolore magna aliqua.</p>
-                </div>
+    <section class="benefits">
+      <div class="benefits__header">
+        <svg width="200" height="200" style="position: relative; bottom: 50px">
+          <circle
+            cx="50%"
+            cy="50%"
+            r="49%"
+            stroke="#3a4998"
+            fill="#3a4998"
+          ></circle>
+        </svg>
 
-                <div class="info__container--compact">
-                    <h3 class="info__title bebas">contact info</h3>
+        <h1 class="benefits__title">
+          Benefits of <b style="font-weight: 900">Video Games</b> For Kids &
+          Adults
+        </h1>
+      </div>
 
-                    <div class="container__vertical">
-                        <p class="info__contact">Phone</p>
-                        <p>+000 123 456 789</p>
-                    </div>
-                    <div class="container__vertical">
-                        <p class="info__contact">email</p>
-                        <p>urname@gmail.com</p>
-                    </div>
-                    <div class="container__vertical">
-                        <p class="info__contact">area</p>
-                        <p>Your Street Address Here</p>
-                    </div>
+      <div class="benefits__image">
+        <img class="benefits__image-large" src="./img/fffff.jpg" alt="" />
+        <img
+          class="benefits__image-small"
+          src="./img/close-up-guy-holding-controller_23-2148243619.jpg"
+          alt="guy holding controller"
+        />
 
-                </div>
-                <div class="info__container--compact">
-                    <h3 class="info__title bebas">Hobbies</h3>
-                    <div class="inline__container">
-                        <div class="container__vertical">
-                            <img class="icon" src="./icons/travel.png" alt="travel">
-                            <p class="info__hobbies">Travel</p>
-                        </div>
-                        <div class="container__vertical">
-                            <img class="icon" src="./icons/audio.png" alt="travel">
-                            <p class="info__hobbies">Music</p>
-                        </div>
-                        <div class="container__vertical">
-                            <img class="icon" src="./icons/document.png" alt="travel">
-                            <p class="info__hobbies">Writing</p>
-                        </div>
-                        <div class="container__vertical">
-                            <img class="icon" src="./icons/chess.png" alt="travel">
-                            <p class="info__hobbies">Chess</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="benefits__card card card-grey card-big">
+          <h2 class="card__heading benefits__card__heading">
+            Healthy brain stimulation
+          </h2>
+          <p class="card__text benefits__card__text">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+          <button class="button btn-blue text-white btn-14">Learn more</button>
+        </div>
+      </div>
+      <svg
+        xlmns="http:/www.w3.org/2000/svg"
+        version="1.1"
+        width="150"
+        height="150"
+        class="benefits__img__beige"
+      >
+        <circle
+          cx="50%"
+          cy="50%"
+          r="40%"
+          stroke="#e5bb8d"
+          stroke-width="25"
+          fill="#fff"
+        ></circle>
+      </svg>
+    </section>
 
-            <div class="content__right">
-                <div class="header">
-                    <!--header?-->
-                    <div>
-                        <h1 class="header__name bebas">
-                            <span>Jhon</span>
-                            <br>
-                            <span>Abirar</span>
-                        </h1>
+    <section class="benefits-list">
+      <div class="benefits-list__item">
+        <h2 class="benefits-list__title">Video games</h2>
+        <p class="benefits-list__text">
+          Sample text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </p>
+      </div>
+      <div class="benefits-list__item">
+        <h2 class="benefits-list__title">Brain stimulation</h2>
+        <p class="benefits-list__text">
+          Sample text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </p>
+      </div>
+      <div class="benefits-list__item">
+        <h2 class="benefits-list__title">Stress relief</h2>
+        <p class="benefits-list__text">
+          Sample text. Click to select the text box. Click again or double click
+          to start editing the text.
+        </p>
+      </div>
+    </section>
 
-                        <p>UI designer</p>
-                    </div>
-                </div>
-                <div class="info__container">
-                    <h3 class="info__title bebas">Education</h3>
-                    <div class="education__container">
-                        <div class="education__column">
-                            <h4 class="info__subtitle--education">
-                                Enter your major
-                            </h4>
-                            <p>
-                                Name Of Your University
-                            </p>
-                            <p>2005-2009</p>
-                        </div>
-                        <div class="education__column">
-                            <h4 class="info__subtitle--education">
-                                Enter your major
-                            </h4>
-                            <p>
-                                Name Of Your University
+    <section class="top-list">
+      <img
+        class="top-list__img"
+        src="./img/xccx.jpg"
+        alt="Woman is playing games"
+      />
+      <div class="top-list__figure"></div>
+      <div class="top-list__card card card-white card-small">
+        <h2 class="top-list__card__heading card__heading">Top PC Games</h2>
+        <p class="top-list__card__text card__text italic">
+          Auctor augue mauris augue neque gravida in fermentum et. Feugiat in
+          fermentum posuere urna nec tincidunt praesent semper.
+        </p>
+        <button class="button btn-blue text-white btn-14">Learn more</button>
+        <span class="dotted">..</span>
+      </div>
+    </section>
 
-                            </p>
-                            <p>2009-2011</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="info__container">
-                    <h3 class="info__title bebas">Experience</h3>
-                    <div class="info__experience">
-                        <h4 class="info__subtitle--experience">Enter Job Position Here</h4>
-                        <div class="inline__container--experience">
-                            <p class="info__border">Present</p>
-                            <p>Company Name / Location</p>
-                        </div>
-                        <p class="info__experience">Lorem ipsum dolor sit amet, this is a thena consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore</p>
-                    </div>
-                    <!--NEED BLOCk?-->
-                    <div class="info__experience">
-                        <h4 class="info__subtitle--experience">Enter Job Position Here</h4>
-                        <div class="inline__container--experience">
-                            <p class="info__border">2017-2019</p>
-                            <p>Company Name / Location</p>
+    <section class="gadgets">
+      <div class="gadgets__item">
+        <h1 class="gadgets__title">Gadgets for your game</h1>
+        <button
+          class="gadgets__button button button btn-white text-white btn-16"
+        >
+          view all
+        </button>
+      </div>
+    </section>
 
-                        </div>
-                        <p class="info__experience">Lorem ipsum dolor sit amet, this is a thena consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore</p>
-                    </div>
-                </div>
-                    <div class="info__container">
-                        <h3 class="info__title bebas">Expertise</h3>
-                        <div class="inline__container--expertise">
-                            <img class="img__expertise" src="./icons/layer1__expertise.png" alt="layer1">
-                            <img class="img__expertise" src="./icons/layer2__expertise.png" alt="layer2">
-                            <img class="img__expertise" src="./icons/layer3__expertise.png" alt="layer3">
-                            <img class="img__expertise" src="./icons/layer4__expertise.png" alt="layer4">
-                        </div>
-                    </div>
-                
-        </main>
-    </div>
-    </div>
-</body>
+    <section class="download">
+      <div class="container">
+        <h2 class="download__heading heading-bold">
+          Looking for games to download for free?
+        </h2>
+        <p class="download__text heading-thin">
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.
+        </p>
+        <button class="download__button button btn-blue text-white btn-16">
+          Read more
+        </button>
+      </div>
+      <div class="download__images">
+        <img
+          class="woman__first"
+          src="./icons/woman-wearing-virtual-reality-headset-playing-video-games_53876-98565.jpg"
+          alt="Woman is playing"
+        />
+        <img class="woman__second" src="./icons/d.jpg" alt="Woman is playing" />
+        <img class="woman__third" src="./icons/cc.jpg" alt="Woman is playing" />
+        <svg width="228" height="228" class="download__blue">
+          <circle
+            cx="50%"
+            cy="50%"
+            r="49%"
+            stroke="#3a4998"
+            fill="#3a4998"
+          ></circle>
+        </svg>
 
+        <svg
+          xlmns="http:/www.w3.org/2000/svg"
+          version="1.1"
+          width="150"
+          height="150"
+          class="download__beige"
+        >
+          <circle
+            cx="50%"
+            cy="50%"
+            r="40%"
+            stroke="#e5bb8d"
+            stroke-width="25"
+            fill="#fff"
+          ></circle>
+        </svg>
+      </div>
+    </section>
+
+    <section class="vr-tech">
+      <div class="vr-tech__card card card-white card-small">
+        <h2 class="vr-tech__card__heading card__heading">VR-Technologies</h2>
+        <p class="card__text vr-tech__text">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.
+        </p>
+        <button class="button btn-black text-black btn-16">Contact us</button>
+      </div>
+      <div class="vr-tech__element"></div>
+      <img class="vr-tech__image" src="./img/ccccc.jpg" alt="Friend using VR" />
+    </section>
+
+    <section class="contact">
+      <img
+        class="contact__img"
+        src="./img/gggg-min.jpg"
+        alt="Man in VR-glasses"
+      />
+      <div class="wrapper">
+        <div class="contact__form">
+          <form action="#" id="form" class="form__body"></form>
+          <h2 class="contact__title">contact form</h2>
+          <div class="form__item">
+            <label for="formName" class="form__label"></label>
+            <input
+              id="formName"
+              value="Enter your Name"
+              type="text"
+              name="name"
+              class="form__input"
+            />
+          </div>
+          <div class="form__item">
+            <label for="formEmail" class="form__label"></label>
+            <input
+              id="formEmail"
+              value="Enter a valid email address"
+              type="email"
+              name="email"
+              class="form__input"
+            />
+          </div>
+          <div class="form__item">
+            <label for="formMessage" class="form__label"></label>
+            <textarea
+              name="message"
+              placeholder="Enter your message"
+              id="formMessage"
+              cols="20"
+              rows="5"
+              class="form__input"
+            ></textarea>
+          </div>
+          <button class="form__btn">Submit</button>
+        </div>
+
+        <div class="contact__links">
+          <h2 class="contact__title">follow us</h2>
+          <img src="./icons/fb-logo.png" alt="facebook logo" class="contact__logo">
+          <img src="./icons/twitter-logo.png" alt="twitter logo" class="contact__logo">
+          <img src="./icons/inst-logo.png" alt="instagram logo" class="contact__logo">
+          <img src="./icons/gp-logo.png" alt="google plus logo" class="contact__logo">
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
